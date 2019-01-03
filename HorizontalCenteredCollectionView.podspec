@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Lib which helps create horizontal collection view with centered items.
                        DESC
 
-  s.homepage         = 'https://github.com/leshchenko/'
+  s.homepage         = 'https://github.com/leshchenko/HorizontalCenteredCollectionView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.author           = { 'Ruslan Leshchenko' => 'leshchenkoruua@gmail.com' }
