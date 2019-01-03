@@ -19,6 +19,7 @@
 		86DD1A5C21DCAB7C00CF8F99 /* HorizontalCenteredCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DD1A5421DCAB7B00CF8F99 /* HorizontalCenteredCollectionViewFlowLayout.m */; };
 		86DD1A6221DCACB700CF8F99 /* CenteredCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DD1A6021DCACB700CF8F99 /* CenteredCollectionViewCell.m */; };
 		86DD1A6321DCACB700CF8F99 /* CenteredCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86DD1A6121DCACB700CF8F99 /* CenteredCollectionViewCell.xib */; };
+		86DD1AB321DE519000CF8F99 /* HorizontalCenteredCollectionView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 86DD1AB221DE519000CF8F99 /* HorizontalCenteredCollectionView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		86DD1A5F21DCACB700CF8F99 /* CenteredCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenteredCollectionViewCell.h; sourceTree = "<group>"; };
 		86DD1A6021DCACB700CF8F99 /* CenteredCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenteredCollectionViewCell.m; sourceTree = "<group>"; };
 		86DD1A6121DCACB700CF8F99 /* CenteredCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenteredCollectionViewCell.xib; sourceTree = "<group>"; };
+		86DD1AB221DE519000CF8F99 /* HorizontalCenteredCollectionView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HorizontalCenteredCollectionView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		86DD1A1021DCAB5100CF8F99 = {
 			isa = PBXGroup;
 			children = (
+				86DD1AB221DE519000CF8F99 /* HorizontalCenteredCollectionView.podspec */,
 				86DD1A1B21DCAB5100CF8F99 /* HorizontalCenteredCollectionView */,
 				86DD1A3421DCAB5200CF8F99 /* HorizontalCenteredCollectionViewTests */,
 				86DD1A3F21DCAB5200CF8F99 /* HorizontalCenteredCollectionViewUITests */,
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86DD1A6321DCACB700CF8F99 /* CenteredCollectionViewCell.xib in Resources */,
+				86DD1AB321DE519000CF8F99 /* HorizontalCenteredCollectionView.podspec in Resources */,
 				86DD1A2921DCAB5200CF8F99 /* LaunchScreen.storyboard in Resources */,
 				86DD1A2621DCAB5200CF8F99 /* Assets.xcassets in Resources */,
 				86DD1A2421DCAB5100CF8F99 /* Main.storyboard in Resources */,
@@ -475,6 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HorizontalCenteredCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,6 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HorizontalCenteredCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
